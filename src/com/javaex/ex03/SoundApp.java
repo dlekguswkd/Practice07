@@ -12,6 +12,8 @@ public class SoundApp {		//SoundApp.java (printSound 메소드 구현 할 것)
 	 */
 
     public static void main(String[] args) {
+    	//Soundable c=new Cat(); 이걸 줄인말
+    	
         printSound( new Cat() );
         printSound( new Dog() );
         printSound( new Sparrow() );
@@ -19,7 +21,7 @@ public class SoundApp {		//SoundApp.java (printSound 메소드 구현 할 것)
     }
 
     public static void printSound( Soundable soundable ) {
-        //구현
+        //구현  soundable이라는 변수이름
     	System.out.println(soundable.sound());
     }
     
