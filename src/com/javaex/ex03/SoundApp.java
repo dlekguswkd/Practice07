@@ -20,6 +20,7 @@ public class SoundApp {		//SoundApp.java (printSound 메소드 구현 할 것)
 
     public static void printSound( Soundable soundable ) {
         //구현
+    	System.out.println(soundable.sound());
     }
     
 }
